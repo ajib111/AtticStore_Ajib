@@ -17,6 +17,7 @@ function About() {
             Each piece is carefully selected to give clothing a second life
             while helping you express your unique style.
             </p>
+            <p>to check git</p>
         </div>
 
         {/* RIGHT: store image */}
