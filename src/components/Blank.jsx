@@ -8,7 +8,7 @@ function Blank() {
         className="text-center text-[40px] "
         style={{ fontFamily: "'Gilda Display', serif" }}
       >
-        Available this week
+        Available next Week
       </h1>
 
       {/* Line below */}
