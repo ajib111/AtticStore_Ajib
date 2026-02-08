@@ -1,6 +1,13 @@
+import NavLink from "./NavLink";
 function Newsletter({ openSignUp }) {
+
   return (
-    <div className="bg-[#EBEBEB] grid grid-cols-2">
+  
+    <div className="bg-[#EBEBEB] grid grid-cols-3">
+
+      <div className=" py-16 px-20 text-center">
+        <NavLink/>
+      </div>
       
 
     <div className=" py-16 px-20 text-center">
@@ -9,7 +16,7 @@ function Newsletter({ openSignUp }) {
         STAY TUNED
       </h2>
 
-      <p className="text-gray-700 mb-8">
+      <p className="text-gray-700 mb-8"> 
         Sign up and stay up to date for our new products!
       </p>
 

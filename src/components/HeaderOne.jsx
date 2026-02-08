@@ -1,8 +1,18 @@
+
+import Contact from "./Contact";
+
 function HeaderOne() {
+ 
   return (
     <div className="bg-[#EBEBEB] text-black p-3 flex justify-between">
-      <p>Contact</p>
-      <p>Shop Now</p>
+
+    <Contact/>
+
+      
+      <div>
+        <p>Shop Now</p>
+      </div>
+      
     </div>
   );
 }

@@ -9,6 +9,7 @@ import Ceo from "./components/Ceo";
 import Newsletter from "./components/NewsLetter";
 import Footer from "./components/Footer";
 import SignUpForm from "./components/SignUpForm";
+import Contact from "./components/Contact";
 
 function App() {
   const [showSignUp, setShowSignUp] = useState(false);
